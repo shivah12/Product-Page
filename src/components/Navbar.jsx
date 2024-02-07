@@ -49,7 +49,7 @@ const Navbar = () => {
           <div className="lg:hidden">
             <button
               onClick={toggleNav}
-              className="text-white focus:outline-none"
+              className="text-red-500 fomt-bold focus:outline-none"
             >
               {isNavOpen ? "Close" : "Menu"}
             </button>
@@ -60,7 +60,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block text-white hover:text-coral-red"
+                className="block text-red-500 fomt-bold hover:text-coral-red"
                 style={{ textDecoration: "none" }}
               >
                 Home
@@ -69,7 +69,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block text-white hover:text-coral-red"
+                className="block text-red-500 fomt-bold hover:text-coral-red"
                 style={{ textDecoration: "none" }}
               >
                 Category
@@ -78,7 +78,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block text-white hover:text-coral-red"
+                className="block text-red-500 fomt-bold hover:text-coral-red"
                 style={{ textDecoration: "none" }}
               >
                 Profile
@@ -87,7 +87,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block text-white hover:text-coral-red"
+                className="block text-red-500 fomt-bold hover:text-coral-red"
                 style={{ textDecoration: "none" }}
               >
                 Cart
