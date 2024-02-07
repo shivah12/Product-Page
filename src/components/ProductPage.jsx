@@ -20,10 +20,10 @@ const ProductPage = () => {
             <div className='flex flex-col gap-6 lg:w-2/4'>
                 <img src={activeImg} alt="image" className='w-full h-full aspect-square object-cover rounded-xl'/>
                 <div className='flex flex-row justify-between h-24'>
-                    <img src={images.img1} alt="" className='w-20 h-20 rounded-md cursor-pointer ' onClick={() => setActiveImage(images.img1)}/>
-                    <img src={images.img2} alt="" className='w-20 h-20 rounded-md cursor-pointer' onClick={() => setActiveImage(images.img2)}/>
-                    <img src={images.img3} alt="" className='w-20 h-20 rounded-md cursor-pointer' onClick={() => setActiveImage(images.img3)}/>
-                    <img src={images.img4} alt="" className='w-20 h-20 rounded-md cursor-pointer' onClick={() => setActiveImage(images.img4)}/>
+                    <img src={images.img1} alt="" className='w-22 h-20 rounded-md cursor-pointer ' onClick={() => setActiveImage(images.img1)}/>
+                    <img src={images.img2} alt="" className='w-22 h-22 rounded-md cursor-pointer' onClick={() => setActiveImage(images.img2)}/>
+                    <img src={images.img3} alt="" className='w-22 h-22 rounded-md cursor-pointer' onClick={() => setActiveImage(images.img3)}/>
+                    <img src={images.img4} alt="" className='w-22 h-22 rounded-md cursor-pointer' onClick={() => setActiveImage(images.img4)}/>
                 </div>
             </div>
             {/* ABOUT */}
