@@ -8,13 +8,13 @@ const Navbar = () => {
   };
 
   return (
-    <header className="py-2 absolute z-10 w-full bg-white shadow-md">
+    <header className="px-0 py-3 fixed top-0 left-0 z-10 w-full bg-white shadow-md">
       <div className="max-container">
-        <nav className="flex items-center justify-between">
-          <a href="/" className="px-4 text-red-600 font-bold text-2xl ">
+        <nav className="px-4 flex items-center justify-between"> {/* Adjusted padding here */}
+          <a href="/" className="text-red-600 font-bold text-2xl"> {/* Removed px-4 */}
             Deka
           </a>
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-5">
             <ul className="flex items-center space-x-8">
               <li>
                 <a
@@ -49,7 +49,7 @@ const Navbar = () => {
           <div className="lg:hidden">
             <button
               onClick={toggleNav}
-              className="text-red-500 fomt-bold focus:outline-none"
+              className="text-red-500 font-bold focus:outline-none" 
             >
               {isNavOpen ? "Close" : "Menu"}
             </button>
@@ -60,7 +60,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block text-red-500 fomt-bold hover:text-coral-red"
+                className="block text-red-500 font-bold hover:text-coral-red" 
                 style={{ textDecoration: "none" }}
               >
                 Home
@@ -69,7 +69,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block text-red-500 fomt-bold hover:text-coral-red"
+                className="block text-red-500 font-bold hover:text-coral-red"
                 style={{ textDecoration: "none" }}
               >
                 Category
@@ -78,7 +78,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block text-red-500 fomt-bold hover:text-coral-red"
+                className="block text-red-500 font-bold hover:text-coral-red"
                 style={{ textDecoration: "none" }}
               >
                 Profile
@@ -87,7 +87,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block text-red-500 fomt-bold hover:text-coral-red"
+                className="block text-red-500 font-bold hover:text-coral-red"
                 style={{ textDecoration: "none" }}
               >
                 Cart
